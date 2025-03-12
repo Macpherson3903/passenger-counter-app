@@ -13,6 +13,12 @@ body {
     align-content: center;
 }
 
+@media screen and (max-width: 767px) {
+    body {
+        background-repeat: no-repeat;
+    }
+}
+
 .container {
     display: block;
     background: #fff;
