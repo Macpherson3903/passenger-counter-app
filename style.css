@@ -16,78 +16,16 @@ body {
 @media screen and (max-width: 767px) {
     body {
         background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        /* Ensures centering on small screens */
     }
 }
 
 .container {
     display: block;
-    background: #fff;
-    text-align: center;
-    width: 400px;
-    height: 500px;
-    margin: 0 auto;
-    padding: 21px;
-    border-radius: 10px;
-    align-content: center;
-    backdrop-filter: blur(10px);
-}
-
-h1,
-h2 {
-    margin-bottom: 1.5em;
-    font-size: 2.5rem;
-}
-
-button {
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 15px;
-    border-radius: 10px;
-    font-size: 2rem;
-    font-weight: bold;
-    transition: 200ms ease-in-out;
-    cursor: pointer;
-    border: none;
-}
-
-#increment-btn {
-    background-color: #413f3f;
-}
-
-#save-btn {
-    background-color: black;
-    color: #fff;
-}
-
-#increment-btn:hover {
-    background-color: black;
-    color: #fff;
-    box-shadow: 0 0 5px 5px #000;
-}
-
-#save-btn:hover {
-    background-color: #413f3f;
-    color: #000;
-    box-shadow: 0 0 5px 5px #000;
-}* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-body {
-    background: url(download.jpg);
-    height: 100vh;
-    width: 100%;
-    overflow: hidden;
-    align-content: center;
-}
-
-.container {
-    display: block;
     background: rgba(255, 255, 255, 0.2);
-    /* Adjusted for transparency */
+    /* Semi-transparent white */
     text-align: center;
     width: 400px;
     height: 500px;
