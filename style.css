@@ -11,6 +11,7 @@ body {
     width: 100%;
     overflow: hidden;
     align-content: center;
+    background-position: center;
 }
 
 @media screen and (max-width: 767px) {
